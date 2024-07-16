@@ -27,13 +27,81 @@ body {
     color: rgb(58, 58, 58);
     font-weight: 600;
     margin: 0;
+    font-size: 1rem;
 } 
 
 .brand-name {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: rgb(58, 58, 58);
     text-align: left;
     margin: 0;
     margin-top: 87px;
+} 
+
+/* start-journey style */
+.start-journey {
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+} 
+
+.start-journey-content {
+    max-width: 582px;
+    max-height: 270px;
+    margin-top: 145px;
+    margin-left: 60px;
+} 
+
+.start-journey-content h1 {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    margin: 0;
+} 
+
+.start-journey-content p {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 16px;
+} 
+
+.primary-btn {
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px 10px 24px;
+    margin-top: 16px;
+} 
+
+.start-journey-container {
+    max-width: 475px;
+    max-height: 475px;
+    background-image: url("/images/Circle\ design.svg");
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 180px;
+} 
+
+.start-journey-img {
+    max-width: 440px;
+    max-height: 414px;
+    margin: 30px 33px 31px 2px;
+} 
+
+.start-journey-img img {
+    width: 100%;
+    height: 100%;
 }

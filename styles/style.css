@@ -254,6 +254,41 @@ body {
     font-weight: 700;
 }
 
+/* footer */
+footer {
+    width: 1440px;
+    height: 210px;
+    background: rgb(10, 8, 38);
+    margin: 0 auto;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer h3 {
+    margin: 0;
+} 
+
+footer p {
+    margin: 0;
+}
+
+footer h5 {
+    margin: 0;
+}  
+
+.footer-icon {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+
+
 /* for responsive mobile */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -397,6 +432,10 @@ body {
 
     .btn-second {
         margin-left: 80px;
+    } 
+
+    footer {
+        width: 100%;
     }
 
 }

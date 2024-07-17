@@ -123,6 +123,87 @@ body {
     padding: 35px 70px;
     display: flex;
     justify-content: space-evenly;
+} 
+
+/* popular section */
+.cards {
+    max-width: 1047px;
+    max-height: 1662px;
+    margin: 0 auto;
+    margin-top: 100px;
+}  
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.cards h4 {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-container {
+    max-width: 329px;
+    max-height: 476px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}  
+
+.card-container h4 {
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    padding-left: 14px;
+} 
+
+.card-container h5 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 14px;
+} 
+
+.card-container p {
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 14px;
+}
+
+.card-img {
+    max-width: 300px;
+    max-height: 256px;
+    border: 5px;
+    padding: 17px 15px 0px 14px;
+} 
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.checked {
+    color: orange;
+    font-size: 10px;
+} 
+
+.ratting {
+    padding-left: 14px;
 }
 
 /* for responsive mobile */
@@ -134,22 +215,25 @@ body {
     .nav-items {
         margin-top: 30px;
         gap: 5px;
-        margin-left: 140px;
         padding: 0;
-        width: 100%;
+        width: 330px;
+        margin-left: 70px;
     } 
 
     .brand-name {
         margin-top: 20px;
         text-align: center;
-        margin-left: 150px;
+        width: 162px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 120px;
     } 
 
     .start-journey-container {
         width: 257px;
         height: 257px;
         margin: 0;
-        margin: 22px 0px 14px 150px;
+        margin: 22px 54px 14px 83px;
     } 
 
     .start-journey-img {
@@ -159,6 +243,7 @@ body {
 
     .start-journey-img img {
         width: 100%;
+        margin-left: 20px;
     }
 
     .start-journey {
@@ -168,12 +253,14 @@ body {
 
     .start-journey-content {
         margin: 0 auto;
+        width: 90%;
+        margin-left: 30px;
     } 
 
     .start-journey-content h1{
         width: 100%;
         text-align: center;
-        font-size: 3rem;
+        font-size: 28px;
         line-height: 42px;
         margin-top: 15px;
     }
@@ -187,9 +274,11 @@ body {
     } 
 
     .primary-btn {
-        margin-left: 190px;
-        margin-top: 50px;
-    } 
+    width: 194px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 80px;
+} 
 
     .sponsor-company {
         background: none;
@@ -199,6 +288,20 @@ body {
     .sponsor-company-logo {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 30px;
+        gap: 10px;
+        width: 275px;
+        height: 62px;
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    } 
+
+    .cards-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 95%;
+} 
+
+    .card-container {
+        margin-left: 50px;
     }
 }

@@ -106,6 +106,25 @@ body {
     height: 100%;
 } 
 
+/* sponsor-company section */
+.sponsor-company {
+    display: grid;
+    grid-template-columns: 8, 1fr;
+    max-width: 1110px;
+    max-height: 110px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+} 
+
+.sponsor-company-logo {
+    max-width: 986px;
+    max-height: 40px;
+    padding: 35px 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* for responsive mobile */
 @media screen and (max-width: 576px) {
     .navbar {
@@ -170,5 +189,16 @@ body {
     .primary-btn {
         margin-left: 190px;
         margin-top: 50px;
+    } 
+
+    .sponsor-company {
+        background: none;
+        margin-top: 20px;
+    } 
+
+    .sponsor-company-logo {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
     }
 }
